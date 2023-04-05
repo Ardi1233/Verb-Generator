@@ -12,16 +12,10 @@ module.exports = (sequelize, Sequelize) => {
         c: {
             type: Sequelize.STRING,
         },
-        d: {
-            type: Sequelize.STRING,
-        },
         key: {
             type: Sequelize.STRING,
         },
         categoryId: {
-            type: Sequelize.INTEGER,
-        },
-        levelId: {
             type: Sequelize.INTEGER,
         },
 
